@@ -1,0 +1,51 @@
+{% seo %}
+{% include head-custom.html %}
+<h1>{{ site.title | default: site.github.repository_name }}</h1>
+
+<!-- {% if site.logo %}
+  <img src="{{ site.logo }}" alt="Logo">
+{% endif %} -->
+
+<p>{{ site.description | default: Testing for the descriptions  }}</p>
+
+{{ This part is trying show the content }}
+
+
+ {% if site.github.is_project_page %}
+ <div class="project-maintainer">
+     <p>This project is actively maintained by <strong>{{ Terry Chen }}</strong>.</p>
+ </div>
+ {% endif %}
+
+ <!-- Modify the  -->
+
+ {% if site.github.is_user_page %}
+<div class="github-profile">
+    <p>
+        <a href="https://github.com/{{ site.github.owner_name }}" target="_blank">
+            View My GitHub Profile
+        </a>
+    </p>
+</div>
+{% endif %}
+
+
+{% if site.show_downloads %}
+<div class="downloads">
+    <h3>Download Options:</h3>
+    <ul>
+        <li><a href="{{ site.github.zip_url }}">Download ZIP File</a></li>
+        <li><a href="{{ site.github.tar_url }}">Download TAR Ball</a></li>
+        <li><a href="{{ site.github.repository_url }}">View on GitHub</a></li>
+    </ul>
+</div>
+{% endif %}
+
+
+
+<footer>
+    <p>Follow me on:
+        <a href="https://github.com/ctrterry" target="_blank">GitHub</a> |
+        <a href="https://www.linkedin.com/in/tianren-chen-3424211a8/" target="_blank">LinkedIn</a>
+    </p>
+</footer>
