@@ -6,7 +6,7 @@ theme: jekyll-theme-minimal
 logo: /assets/img/self_transparent.png 
 
 # Toggle whether GitHub repository downloads (zips) are shown on your repository page.
-# show_downloads: true
+show_downloads: true
 
 # If you have a custom domain, specify here:
 # url: "https://www.your-custom-domain.com"
