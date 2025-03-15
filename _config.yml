@@ -1,12 +1,12 @@
 title: "TIANREN CHEN"
-description: "Sharing my journey, projects, and professional experience."
+description: "Sharing my education journey, projects, and experience."
 theme: jekyll-theme-minimal
 
 # Path to your logo or headshot. This can be local (e.g., in /assets/img/) or an external URL.
 logo: /assets/img/self_transparent.png 
 
 # Toggle whether GitHub repository downloads (zips) are shown on your repository page.
-show_downloads: true
+ # show_downloads: true
 
 # If you have a custom domain, specify here:
 # url: "https://www.your-custom-domain.com"
