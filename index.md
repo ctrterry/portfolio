@@ -114,7 +114,8 @@ Completed Electrical Engineering Courses:
 - **Single-Threaded, In-memory L-Store**: Built a foundational in-memory database using L-Store architecture with base/tail pages for efficient data storage; implemented SQL-like operations (INSERT, SELECT, UPDATE, DELETE).  
 - **Durability**: Added disk persistence with transactional operations (begin, rollback, commit) to ensure data consistency and crash recovery; introduced a merge process to optimize read performance by consolidating base and tail pages.  
 - **Multi-threading**: Introduced concurrent processing with a thread pool and synchronization primitives to handle simultaneous transactional (OLTP) and analytical (OLAP) queries. <br>
-**Durable Database Code:** <a href="https://github.com/ctrterry/Durable-LStore-Database?tab=readme-ov-file#multi-threaded-in-memory--durable-l-store-database" target="_blank"><strong> Click to Access</strong></a> <br>
+
+- **Durable Database Code:** <a href="https://github.com/ctrterry/Durable-LStore-Database?tab=readme-ov-file#multi-threaded-in-memory--durable-l-store-database" target="_blank"><strong> Click to Access</strong></a> <br>
 
 ### Power Distribution System Installation and Maintenance
 - Designed and implemented power supply and distribution systems, ensuring optimal performance and reliability.  
