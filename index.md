@@ -10,11 +10,11 @@ title: "Terry's Resume"
 **Github** [https://github.com/ctrterry](mailto:https://github.com/ctrterry) <br>
 **Canvas** <a href="https://canvas.ucdavis.edu/courses" target="_blank"><strong>Access My Canvas, Personal Used it</strong></a> -->
 
-**Email:** [ctrterry@gmail.com](mailto:ctrterry@gmail.com) <br>
-**LinkedIn:** <a href="https://www.linkedin.com/in/tianren-chen-3424211a8/" target="_blank"><strong>Access to LinkedIn</strong></a> <br>
-**Github:** <a href="https://github.com/ctrterry" target="_blank"><strong>Access to Github</strong></a> <br>
-**Canvas:** <a href="https://canvas.ucdavis.edu/courses" target="_blank"><strong>Access My Canvas, Personal Used it</strong></a> <br>
-**Location:**  Davis, CA, USA
+- **Email:** [ctrterry@gmail.com](mailto:ctrterry@gmail.com) <br>
+- **LinkedIn:** <a href="https://www.linkedin.com/in/tianren-chen-3424211a8/" target="_blank"><strong> 👉 Access to LinkedIn</strong></a> <br>
+- **Github:** <a href="https://github.com/ctrterry" target="_blank"><strong> 👉 Access to Github</strong></a> <br>
+- **Canvas:** <a href="https://canvas.ucdavis.edu/courses" target="_blank"><strong> 👉 Access My Canvas, Personal Used it</strong></a> <br>
+- **Location:**  _Davis, CA, USA_
 
 ---
 
@@ -130,11 +130,6 @@ Completed Electrical Engineering Courses:
 - Leveraged advanced C++ features (pointers, memory management) to boost performance.  
 - Delivered a more efficient and flexible Canvas system, gaining hands-on experience in teamwork, technical problem-solving, and project management. <br>
 - **Canvas System Refactoring:** <a href="https://github.com/ctrterry/MyCanvas-System/tree/main#readme" target="_blank"><strong> 👉 Click to Access</strong></a> <br>
-
-### Power Distribution System Installation and Maintenance
-- Designed and implemented power supply and distribution systems, ensuring optimal performance and reliability.  
-- Conducted hands-on installation and maintenance of electrical systems, troubleshooting real-world faults.  
-- Applied safety practices to protect systems and personnel, focusing on reliable power delivery.
 
 ---
 
