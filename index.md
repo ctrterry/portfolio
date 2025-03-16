@@ -16,6 +16,16 @@ title: "Terry's Resume"
 - **Canvas:** <a href="https://canvas.ucdavis.edu/courses" target="_blank"><strong> 👉 Access My Canvas, Personal Used it</strong></a> <br>
 - **Location:**  _Davis, CA, USA_
 
+
+| Category   | Details                        | Notes               |
+|:-----------|:------------------------------|:---------------------|
+| Email      | dasdas@gmail.com               | -                   |
+| LinkedIn   | 👉 [Access to LinkedIn](#)     | -                   |
+| GitHub     | 👉 [Access to GitHub](#)       | -                   |
+| Canvas     | 👉 Access My Canvas            | Personal Use        |
+| Location   | Davis, CA, USA                 | -                   |
+
+
 ---
 
 ## Education
