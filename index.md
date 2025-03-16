@@ -10,21 +10,13 @@ title: "Terry's Resume"
 **Github** [https://github.com/ctrterry](mailto:https://github.com/ctrterry) <br>
 **Canvas** <a href="https://canvas.ucdavis.edu/courses" target="_blank"><strong>Access My Canvas, Personal Used it</strong></a> -->
 
-- **Email:** [ctrterry@gmail.com](mailto:ctrterry@gmail.com) <br>
-- **LinkedIn:** <a href="https://www.linkedin.com/in/tianren-chen-3424211a8/" target="_blank"><strong> 👉 Access to LinkedIn</strong></a> <br>
-- **Github:** <a href="https://github.com/ctrterry" target="_blank"><strong> 👉 Access to Github</strong></a> <br>
-- **Canvas:** <a href="https://canvas.ucdavis.edu/courses" target="_blank"><strong> 👉 Access My Canvas, Personal Used it</strong></a> <br>
-- **Location:**  _Davis, CA, USA_
-
-
-| Category   | Details                        | Notes               |
-|:-----------|:------------------------------|:---------------------|
-| Email      | dasdas@gmail.com               | -                   |
-| LinkedIn   | 👉 [Access to LinkedIn](#)     | -                   |
-| GitHub     | 👉 [Access to GitHub](#)       | -                   |
-| Canvas     | 👉 Access My Canvas            | Personal Use        |
-| Location   | Davis, CA, USA                 | -                   |
-
+| Category          | Navigation Link                 |
+|:-----------------|:--------------------------------|
+| Relevant Courses | 👉 [View Courses](#relevant-coursework) |
+| Projects        | 👉 [View Projects](#projects)    |
+| Skills         | 👉 [View Skills](#skills)        |
+| Work Experience | 👉 [View Experience](#work-experience) |
+| Contact Information | 👉 [View Contact Details](#contact) |
 
 ---
 
@@ -159,7 +151,13 @@ Completed Electrical Engineering Courses:
 
 ## Contact
 
-**Email**: [ctrterry@gmail.com](mailto:ctrterry@gmail.com)  
+- **Email:** [ctrterry@gmail.com](mailto:ctrterry@gmail.com) <br>
+- **LinkedIn:** <a href="https://www.linkedin.com/in/tianren-chen-3424211a8/" target="_blank"><strong> 👉 Access to LinkedIn</strong></a> <br>
+- **Github:** <a href="https://github.com/ctrterry" target="_blank"><strong> 👉 Access to Github</strong></a> <br>
+- **Canvas:** <a href="https://canvas.ucdavis.edu/courses" target="_blank"><strong> 👉 Access My Canvas, Personal Used it</strong></a> <br>
+- **Location:**  _Davis, CA, USA_
+
+<!-- **Email**: [ctrterry@gmail.com](mailto:ctrterry@gmail.com)   -->
 Feel free to reach out for collaborations, networking, or any inquiries about my work and experience.
 
 ---
