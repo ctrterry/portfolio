@@ -156,3 +156,4 @@ Feel free to reach out for collaborations, networking, or any inquiries about my
 
 *Last Updated: March 2025*
 
+**[Back to top](#computer-science-uc-davis)**
