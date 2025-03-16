@@ -101,7 +101,9 @@ Completed Electrical Engineering Courses:
 ### Digital Design of CPU and Cache Systems
 - Developed CPU and cache architectures using logic gates and digital design techniques.  
 - Applied logic-based approaches to optimize memory access and data flow within the cache.  
-- Conducted simulations to test and validate performance, ensuring reliability and functionality.
+- Conducted simulations to test and validate performance, ensuring reliability and functionality. <br>
+
+- **CPU & Cache Code:** <a href="https://github.com/ctrterry/Computer-Architecture?tab=readme-ov-file#cpu-and-cache-system-using-logisim" target="_blank"><strong> Click to Access</strong></a> <br>
 
 ### Operating System Project: Distributed File System with Multi-threading and File Distribution
 - Designed and implemented a **multi-threaded distributed file system** in C++ to handle concurrent file operations more efficiently.  
