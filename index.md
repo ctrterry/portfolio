@@ -3,8 +3,8 @@ layout: default
 title: "Terry's Resume"
 ---
 
-# Terry Chen
-**Major Computer Science, UC Davis**  
+# Computer Science, UC Davis
+
 <!-- **Email:** [ctrterry@gmail.com](mailto:ctrterry@gmail.com)  
 **LinkedIn:** [https://www.linkedin.com/in/tianren-chen-3424211a8/](https://www.linkedin.com/in/tianren-chen-3424211a8/)
 **Github** [https://github.com/ctrterry](mailto:https://github.com/ctrterry) <br>
@@ -21,16 +21,16 @@ title: "Terry's Resume"
 ## Education
 
 **Bachelor of Science in Computer Science**  
-*University of California, Davis, CA*  
-*Expected Graduation: Fall August 2025*
+- *University of California, Davis, CA*  
+- *Expected Graduation: Fall August 2025*
 
 **Associate of Science || Mathematics**  
-*Ohlone College, Fremont, CA*  
-*Graduation: May 2023*
+- *Ohlone College, Fremont, CA*  
+- *Graduation: May 2023*
 
 **Data Analytics Professional Certificate**  
-*Google*  
-*Completed: February 2022*
+- *Google*  
+- *Completed: February 2022*
 
 
 <!-- **College of Electrical Engineering**  
