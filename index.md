@@ -5,11 +5,6 @@ title: "Terry's Resume"
 
 # Computer Science, UC Davis
 
-<!-- **Email:** [ctrterry@gmail.com](mailto:ctrterry@gmail.com)  
-**LinkedIn:** [https://www.linkedin.com/in/tianren-chen-3424211a8/](https://www.linkedin.com/in/tianren-chen-3424211a8/)
-**Github** [https://github.com/ctrterry](mailto:https://github.com/ctrterry) <br>
-**Canvas** <a href="https://canvas.ucdavis.edu/courses" target="_blank"><strong>Access My Canvas, Personal Used it</strong></a> -->
-
 | Category          | Navigation Link                 |
 |:-----------------|:--------------------------------|
 | Relevant Courses | 👉 [View Courses](#relevant-coursework) |
@@ -45,6 +40,10 @@ title: "Terry's Resume"
 
 ### Software
 Completed CS Courses:  
+- Operating Systems & System Programming
+- Database Systems
+- Computer Networks
+- Human-Compute Interaction
 - Web Programming  
 - Algorithm Design and Analysis  
 - Probability & Statistical Modeling for Computer Science  
@@ -55,28 +54,24 @@ Completed CS Courses:
 - Object-Oriented Programming  
 - *Etc.*  
 
-### Electrical
-Completed Electrical Engineering Courses:  
-- Safety Utilization of Electric Power  
-- Metal Process Training  
-- Power Supply and Distribution Equipment Installation & Maintenance Training  
-- Plant Electrical Control  
-- Equipment Design  
-- Electric Power Measurement & Power System Protection  
-- Microcomputer Interface Training  
-- *Etc.*  
+### In-Prcoess 2025, Spring Quarter
+- Artificial Intelligence (AI)
+- Machine Learning
+- Artificial Intelligence (Sepcial Topic in advance)
+- Computer Graphics
 
 ---
 
 ## Skills
 
 ### Technical Skills
-- **Programming Languages**: C++ (Primary), Java, Python  
+- **Programming Languages**: C/C++(Primary), java, Python, MATLAB, Assembly, SQL, JavaScript, HTML/CSS
 - **Software Development**: Object-Oriented Programming, Modular Design, Data Structures, Algorithms  
 - **Mathematical Foundations**: Probability, Statistics, Linear Algebra, Calculus  
 - **Data Analytics**: Google Data Analytics Certificate (hands-on with data wrangling/visualization)  
 - **Systems Knowledge**: Linux  
-- **Tools & Technologies**: GitHub (Version Control), VS Code (IDE)
+- **Tools & Technologies**: GitHub (Version Control), VS Code (IDE), Docker, MySQL, React.
+- **Language Proficiency**: Chinese (Native), English (Proficient, 4-Year U.S. Undergraduate Study)
 
 ### Soft Skills
 - Problem-solving and Critical Thinking  
@@ -138,11 +133,11 @@ Completed Electrical Engineering Courses:
 ## Work Experience
 
 **Golden Fastrack Corp. | Summer Intern | 2023**  
-- Performed software updates and maintenance to enhance system performance and reliability.  
-- Managed and optimized databases to ensure data integrity and efficient access.  
-- Assisted in troubleshooting technical issues and providing solutions to improve workflow.
+Position: Software Development Engineer Intern
+- Managed full-stack development including UI creation with ReactJS, backend implementation using Java, and was responsible for the design, development, testing, and deployment.
 
 **Golden Fastrack Corp. | Summer Intern | 2022**  
+Position: Software Development Engineer Intern
 - Performed software updates and maintenance to enhance system performance and reliability.  
 - Managed and optimized databases to ensure data integrity and efficient access.  
 - Assisted in troubleshooting technical issues and providing solutions to improve workflow.
