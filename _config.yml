@@ -19,9 +19,9 @@ social_links:
   linkedin: "https://www.linkedin.com/in/tianren-chen-3424211a8/"
 
 # You can also specify any plugins you might want:
-# plugins:
-#   - jekyll-feed
-#   - jekyll-sitemap
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
 
 # Optional custom variables. You can reference these in your layout or pages.
 author_name: "Terry Chen"
