@@ -137,3 +137,38 @@
     color: #fff;
   }
   
+
+/* Project Highlights Layout */
+.project-grid {
+  display: grid;
+  gap: 1rem;
+  /* Adjust columns for responsiveness:
+     e.g., auto-fit min 250px wide, or as needed */
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.project-card {
+  background-color: #fff;
+  border: 1px solid #eee;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 4px;
+}
+
+.project-card img {
+  max-width: 100%;
+  border-radius: 4px;
+  margin-bottom: 0.75rem;
+}
+
+.project-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.project-card p {
+  color: #666;
+}
+
+/* Project Highlights Layout Ending */
