@@ -37,7 +37,9 @@ body, html {
   font-weight: bold;
 }
 
-  
+.logo:hover {
+  color: #1abc9c;
+}
 /* navigation bar index control  */
 .nav-right a {
   color: #fff;

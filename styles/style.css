@@ -36,6 +36,11 @@ body, html {
   font-weight: bold;
 }
 
+.logo:hover {
+  color: #1abc9c;
+}
+
+
 /* Navigation bar index control */
 .nav-right a {
   color: #fff;
@@ -92,18 +97,22 @@ body, html {
   background: #16a085;
 }
 
-.hero-image {
+.personal-image {
   flex: auto;
   display: flex;
   justify-content: center;
   margin-top: 2rem;
 }
 
-.hero-image img {
+.personal-image img {
   max-width: 240px;
   border-radius: 50%;
   background-color: white;
   object-fit: cover;
+}
+
+.personal-image img:hover {
+  transform: scale(1.2); /* Convert my image to 120% on hover */
 }
 
 /* Section Styles */
@@ -138,6 +147,44 @@ body, html {
   border-bottom: 1px solid #ddd;
   margin-bottom: 0.5rem;
 }
+
+
+
+/* 
+  image box control area 
+  Using for add screen-shots 
+*/
+
+.image-box {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  margin: 5rem auto;
+  max-width: 800px; /* Adjust the width as needed */
+}
+
+.image-box img {
+  width: 100%;
+  display: block;
+}
+
+.image-box .description {
+  padding: 1rem;
+}
+
+.image-box .description h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.image-box .description p {
+  font-size: 1rem;
+  color: #666;
+}
+
 
 /* Footer */
 .footer {
