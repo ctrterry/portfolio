@@ -1,0 +1,197 @@
+/* project_style.css */
+/* Base Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Typography & Colors */
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Wrapper to push footer to the bottom */
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #333;
+    padding: 1rem;
+}
+
+.logo {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.logo:hover {
+    color: #1abc9c;
+}
+
+/* Navigation bar index control */
+.nav-right a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1rem;
+    transition: color 0.3s;
+}
+
+.nav-right a:hover {
+    color: #1abc9c;
+}
+
+
+/* 
+    Header changed area 
+    using for update my current projects
+
+*/
+
+/* the head name is display into the center  */
+.headBox {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 1rem;
+    background: #e7f0f1;
+  }
+  
+  .headBox-text {
+    /* flex: 1 1 400px;
+    margin-right: 1rem; */
+    max-width: 800px; 
+    text-align: center; 
+  }
+  
+  .headBox-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .headBox-text h3 {
+    font-size: 1.25rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+  }
+  
+  .headBox-text p {
+    margin-bottom: 1rem;
+    max-width: 600px;
+  }
+  
+
+/* MAIN CONTENT AREA */
+/* Add this rule so the section expands to fill available space */
+.section {
+    padding: 2rem 1rem;
+    flex: 1;
+    padding-bottom: 1rem; /* Extra padding space at the bottom */
+  }
+  
+
+/* Projects Container */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Project Card */
+.project-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Image Styling for the Card */
+.project-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Project Details */
+.project-details {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.project-details h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.project-details p {
+    flex: 1;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    color: #555;
+}
+
+/* Code Snippet Styling */
+.project-details pre {
+    background: #f4f4f4;
+    padding: 0.5rem;
+    overflow-x: auto;
+    border-radius: 4px;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+/* Project Link Styling */
+.project-details a {
+    align-self: flex-start;
+    background: #1abc9c;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+.project-details a:hover {
+    background: #16a085;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 600px) {
+    .projects-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -62,9 +62,11 @@ body, html {
 }
 
 /* Section & Content */
+/* Hard code to adjustment contact information's location */
 .section {
+  padding: 15rem 1rem;
   flex: 1;
-  padding: 2rem;
+  padding-bottom: 1rem; /* Extra padding space at the bottom */
 }
 
 .section-content {

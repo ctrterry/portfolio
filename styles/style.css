@@ -119,6 +119,7 @@ body, html {
 .section {
   padding: 2rem 1rem;
   flex: 1; /* This line ensures the section expands to push the footer down */
+  padding-bottom: 1rem;
 }
 
 .bg-light {
