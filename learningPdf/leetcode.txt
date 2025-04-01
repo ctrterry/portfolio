@@ -1,0 +1,32 @@
+Leetcode Trainning process
+
+
+Array:
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.
+You may assume that each input would have exactly one solution, and you may not use the same element twice.
+Example1:
+Input: nums = [2,7,11,15], target = 9
+Output: [0,1]
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+
+Solution:
+Ans1:
+    for(int i; i< nums.size() ; i++ )
+        for( int j + 1;  j < nums.size() ; j++)
+                if(nums[i] + nums[j] == target ) {i,j} : continunes;
+    
+    O(n^2) 
+
+Ans2: Using unorder map trying to solve it.
+    unorder_map<> nums_list;
+    for(int i =0; i < nums.size() ; i++)
+        complementatry = target - nums[i];
+        if( nums_list.find( complementatry) ! = nums.end() )
+            return { nums[complementatry], i }
+        nums_list[nums[i]] = i; // store the value and key
+
+
+    
+    
+
+
