@@ -264,3 +264,36 @@ body, html {
     max-width: 200px;
   }
 }
+
+.indented-text {
+  text-indent: 2em;
+}
+
+.papers-section {
+  margin: 2em 0;
+}
+
+.papers-section h3 {
+  color: #333;
+  margin: 1em 0 0.5em 0;
+}
+
+.papers-list {
+  list-style-type: none;
+  padding-left: 2em;
+}
+
+.papers-list li {
+  margin: 0.5em 0;
+}
+
+.papers-list a {
+  color: #0066cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.papers-list a:hover {
+  color: #004499;
+  text-decoration: underline;
+}
