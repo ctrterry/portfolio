@@ -1,3 +1,18 @@
+/* CSS Variables */
+:root {
+  --primary-color: #1abc9c;
+  --primary-dark: #16a085;
+  --text-color: #333;
+  --text-light: #666;
+  --bg-color: #f9f9f9;
+  --bg-light: #e7f0f1;
+  --nav-bg: #333;
+  --white: #fff;
+  --border-color: #ddd;
+  --shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
 /* Base Reset */
 * {
   margin: 0;
@@ -9,8 +24,9 @@
 body, html {
   height: 100%;
   font-family: Arial, sans-serif;
-  background: #f9f9f9;
-  color: #333;
+  background: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
 }
 
 /* Wrapper to push footer to the bottom */
@@ -25,32 +41,46 @@ body, html {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #333;
+  background: var(--nav-bg);
   padding: 1rem;
+  box-shadow: var(--shadow);
 }
 
 .logo {
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   font-size: 1.2rem;
   font-weight: bold;
+  transition: var(--transition);
 }
 
 .logo:hover {
-  color: #1abc9c;
+  color: var(--primary-color);
+  transform: scale(1.05);
 }
-
 
 /* Navigation bar index control */
 .nav-right a {
-  color: #fff;
+  color: var(--white);
   text-decoration: none;
   margin-left: 1rem;
-  transition: color 0.3s;
+  transition: var(--transition);
+  position: relative;
 }
 
-.nav-right a:hover {
-  color: #1abc9c;
+.nav-right a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--primary-color);
+  transition: var(--transition);
+}
+
+.nav-right a:hover::after {
+  width: 100%;
 }
 
 /* Hero / Header Section */
@@ -149,8 +179,6 @@ body, html {
   margin-bottom: 0.5rem;
 }
 
-
-
 /* 
   image box control area 
   Using for add screen-shots 
@@ -186,7 +214,6 @@ body, html {
   color: #666;
 }
 
-
 /* Footer */
 .footer {
   background: #333;
@@ -197,15 +224,43 @@ body, html {
 }
 
 /* Responsive Navigation Adjustments */
-@media (max-width: 600px) {
+@media (max-width: 768px) {
+  .hero {
+    padding: 1.5rem 1rem;
+  }
+  
+  .hero-text h1 {
+    font-size: 2rem;
+  }
+  
+  .hero-text h3 {
+    font-size: 1.1rem;
+  }
+  
+  .section-content {
+    padding: 0 1rem;
+  }
+  
+  .image-box {
+    margin: 2rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
   .navbar {
-    padding: 0.8rem 1rem;
+    flex-direction: column;
+    padding: 1rem;
   }
-  .logo {
-    font-size: 1rem;
+  
+  .nav-right {
+    margin-top: 1rem;
   }
+  
   .nav-right a {
-    font-size: 0.9rem;
-    margin-left: 0.5rem;
+    margin: 0 0.5rem;
+  }
+  
+  .personal-image img {
+    max-width: 200px;
   }
 }

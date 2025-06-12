@@ -3,120 +3,72 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Tianren Chen – Computer Science</title>
+  <meta name="description" content="Explore Tianren Chen's projects in Computer Science, including CPU and Cache Systems design, and L-Store Database implementation" />
+  <meta name="keywords" content="Tianren Chen Projects, CPU Design, Cache Systems, Database Systems, L-Store, Computer Architecture, UC Davis" />
+  <meta name="author" content="Tianren Chen" />
+  <meta name="robots" content="index, follow" />
+  
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="Tianren Chen's Projects - Computer Science Portfolio" />
+  <meta property="og:description" content="Explore projects in CPU design, cache systems, and database implementation by Tianren Chen" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ctrterry.github.io/projects.html" />
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Tianren Chen's Projects - Computer Science Portfolio" />
+  <meta name="twitter:description" content="Explore projects in CPU design, cache systems, and database implementation by Tianren Chen" />
+  
+  <title>Projects - Tianren Chen | Computer Science Portfolio</title>
   <link rel="stylesheet" href="styles/projects_style.css" />
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico">
+  <link rel="canonical" href="https://ctrterry.github.io/projects.html" />
 </head>
 <body>
   <div class="wrapper">
-    <!-- Navigation Bar (remains unchanged) -->
+    <!-- Navigation Bar -->
     <nav class="navbar">
-        <div class="nav-left">
-          <a href="https://www.linkedin.com/public-profile/settings?trk=d_flagship3_profile_self_view_public_profile" class="logo">T.Chen</a>
-        </div>
-        <div class="nav-right">
-          <a href="index.html"> Home</a>
-          <a href="https://ctrterry.github.io/resume/"> Resume</a>
-          <a href="projects.html">Projects</a>
-          <a href="contact.html">Contact</a>
-        </div>
-      </nav>
+      <div class="nav-left">
+        <a href="https://www.linkedin.com/in/ctrterry" class="logo">T.Chen</a>
+      </div>
+      <div class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="resume.html">Resume</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a href="https://github.com/ctrterry" target="_blank">GitHub</a>
+      </div>
+    </nav>
 
-     <!-- Header Content Area 
-    
-        Such as, modify the Projects and contents
-    
-    -->
-
+    <!-- Header Content Area -->
     <section class="headBox">
-        <div class="headBox-text">
+      <div class="headBox-text">
         <h1>Projects</h1>
-            <p>
-                Explore my work below. Each project box contains a screenshot, 
-                a brief description, helpful code snippets, 
-                and a direct link to explore the full project in detail.
-            </p>
-        </div>
+        <p>
+          Explore my work below. Each project showcases my expertise in computer architecture, 
+          database systems, and software engineering. Click on any project to view the full details 
+          and source code on GitHub.
+        </p>
+      </div>
     </section>
 
-
-
-
-    <!-- Projects Input Area -->
+    <!-- Projects Section -->
     <section class="section">
       <div class="section-content">
-        <!-- Projects Container -->
+        <!-- Projects will be dynamically loaded here -->
         <div class="projects-container">
-
-
-          <!-- Project  1 -->
-          <div class="project-card">
-            <img src="assets/img/Cache.png" alt="Screenshot of Project 1">
-            <div class="project-details">
-              <h2>Digital Design of CPU and Cache Systems</h2>
-                <p>
-                    <strong>Developed CPU and cache architectures</strong> using logic gates and digital design techniques.<br>
-                    Applied logic-based approaches to optimize memory access and data flow within the cache.<br>
-                    Conducted simulations to test and validate performance, ensuring reliability and functionality.<br>
-                </p>
-              <pre><code>
-CPU Components:
-    1, Program Counter (PC): Tracks the current instruction address.
-    2, Instruction Decoder: Decodes instructions to generate control signals.
-    3, Register File: Stores and manages register values for operations.
-Cache System:
-    1, 8-entry Direct Mapped Cache
-    2, Valid Bit: Indicates if data is loaded in the cache line.
-    3, Dirty Bit: Marks whether cache data has been modified.
-    4, TAG: Identifies cached data address.
-    5, Cache Data: Actual data stored within cache lines.
-                </code></pre>
-
-              <a href="https://github.com/ctrterry/Computer-Architecture" target="_blank">View Project</a>
-            </div>
-          </div>
-          
-          <!-- Project  2 -->
-          <div class="project-card">
-            <img src="assets/img/database.png" alt="Database System">
-            <div class="project-details">
-              <h2>Database System Project: L-Store Implementation</h2>
-              <p>
-                <strong>Single-Threaded: </strong> In-memory L-Store: Built a foundational 
-                in-memory database using L-Store architecture with base/tail pages 
-                for efficient data storage; implemented SQL-like operations 
-                (INSERT, SELECT, UPDATE, DELETE).
-                <strong>Multi-threading:</strong> Introduced concurrent processing with a thread pool and 
-                synchronization primitives to handle simultaneous transactional (OLTP) 
-                and analytical (OLAP) queries.
-              </p>
-              <pre><code>
-'''
-    #  Version | Version_Tail | MIN rid range | MAX rid range 
-    #   FOR BASE PAGES
-    #   example: 5 columns
-    #   i += 5, for each page increment by 5 for easy book keeping
-
-    # --Indirection | --Column Pages--- |
-    #   meta0-tail  | Page 0  | Page 1  | and so on
-    #   meta1-tail  | Page 5  | Page 6  |
-    #   meta2-tail  | Page 10 | Page 11 |
-    #   meta3-tail  | Page 15 | Page 16 |
-    #   meta4-tail  | Page 20 | Page 21 |
-'''
-              </code></pre>
-              <a href="https://github.com/ctrterry/Durable-LStore-Database" target="_blank">View Project</a>
-            </div>
-          </div>
-          
-          <!-- You can add more project cards following the same structure -->
+          <!-- Project cards will be inserted here by JavaScript -->
         </div>
       </div>
     </section>
 
-    <!-- Footer (remains unchanged) -->
+    <!-- Footer -->
     <footer class="footer">
       <p>&copy; 2025 Tianren Chen. All rights reserved</p>
     </footer>
   </div>
+
+  <!-- Load project data and rendering script -->
+  <script src="js/projects.js"></script>
 </body>
 </html>

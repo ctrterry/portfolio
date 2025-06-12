@@ -1,197 +1,280 @@
 /* project_style.css */
+/* CSS Variables */
+:root {
+  --primary-color: #1abc9c;
+  --primary-dark: #16a085;
+  --text-color: #333;
+  --text-light: #666;
+  --bg-color: #f9f9f9;
+  --bg-light: #e7f0f1;
+  --nav-bg: #333;
+  --white: #fff;
+  --border-color: #ddd;
+  --shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
+
 /* Base Reset */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Typography & Colors */
 body, html {
-    height: 100%;
-    font-family: Arial, sans-serif;
-    background: #f9f9f9;
-    color: #333;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
 }
 
-/* Wrapper to push footer to the bottom */
+/* Wrapper */
 .wrapper {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 /* Navigation Bar */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: #333;
-    padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: var(--nav-bg);
+  padding: 1rem;
+  box-shadow: var(--shadow);
 }
 
 .logo {
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-weight: bold;
+  color: var(--white);
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: var(--transition);
 }
 
 .logo:hover {
-    color: #1abc9c;
+  color: var(--primary-color);
+  transform: scale(1.05);
 }
 
-/* Navigation bar index control */
 .nav-right a {
-    color: #fff;
-    text-decoration: none;
-    margin-left: 1rem;
-    transition: color 0.3s;
+  color: var(--white);
+  text-decoration: none;
+  margin-left: 1rem;
+  transition: var(--transition);
+  position: relative;
 }
 
-.nav-right a:hover {
-    color: #1abc9c;
+.nav-right a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: -4px;
+  left: 0;
+  background-color: var(--primary-color);
+  transition: var(--transition);
 }
 
+.nav-right a:hover::after {
+  width: 100%;
+}
 
-/* 
-    Header changed area 
-    using for update my current projects
-
-*/
-
-/* the head name is display into the center  */
+/* Header Box */
 .headBox {
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-    align-items: center;
-    padding: 2rem 1rem;
-    background: #e7f0f1;
-  }
-  
-  .headBox-text {
-    /* flex: 1 1 400px;
-    margin-right: 1rem; */
-    max-width: 800px; 
-    text-align: center; 
-  }
-  
-  .headBox-text h1 {
-    font-size: 2.5rem;
-    margin-bottom: 0.5rem;
-  }
-  
-  .headBox-text h3 {
-    font-size: 1.25rem;
-    color: #666;
-    margin-bottom: 1.5rem;
-  }
-  
-  .headBox-text p {
-    margin-bottom: 1rem;
-    max-width: 600px;
-  }
-  
+  background: var(--bg-light);
+  padding: 3rem 1rem;
+  text-align: center;
+}
 
-/* MAIN CONTENT AREA */
-/* Add this rule so the section expands to fill available space */
+.headBox-text {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.headBox-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.headBox-text p {
+  font-size: 1.1rem;
+  color: var(--text-light);
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Projects Section */
 .section {
-    padding: 2rem 1rem;
-    flex: 1;
-    padding-bottom: 1rem; /* Extra padding space at the bottom */
-  }
-  
+  padding: 2rem 1rem;
+  flex: 1;
+}
 
-/* Projects Container */
+.section-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 .projects-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    gap: 2rem;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 1rem;
 }
 
-/* Project Card */
+/* Project Cards */
 .project-card {
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 100%;
-    max-width: 400px;
-    display: flex;
-    flex-direction: column;
+  background: var(--white);
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  transition: var(--transition);
 }
 
-/* Image Styling for the Card */
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
 .project-card img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-bottom: 1px solid var(--border-color);
 }
 
-/* Project Details */
 .project-details {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    flex: 1;
+  padding: 1.5rem;
 }
 
 .project-details h2 {
-    font-size: 1.5rem;
-    margin-bottom: 0.5rem;
-    color: #333;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tag {
+  background: var(--bg-light);
+  color: var(--text-color);
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.9rem;
 }
 
 .project-details p {
-    flex: 1;
-    margin-bottom: 1rem;
-    line-height: 1.4;
-    color: #555;
+  margin-bottom: 1.5rem;
+  color: var(--text-light);
 }
 
-/* Code Snippet Styling */
-.project-details pre {
-    background: #f4f4f4;
-    padding: 0.5rem;
-    overflow-x: auto;
-    border-radius: 4px;
-    font-size: 0.9rem;
-    margin-bottom: 1rem;
+.code-block {
+  background: #f8f9fa;
+  border-radius: 6px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
 }
 
-/* Project Link Styling */
-.project-details a {
-    align-self: flex-start;
-    background: #1abc9c;
-    color: #fff;
-    padding: 0.5rem 1rem;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background 0.3s;
+.code-block h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
 }
 
-.project-details a:hover {
-    background: #16a085;
+.code-block pre {
+  background: #2d2d2d;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.code-block code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.9rem;
+}
+
+/* Project Links */
+.project-link {
+  display: inline-block;
+  background: var(--primary-color);
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: var(--transition);
+}
+
+.project-link:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+}
+
+/* Research Paper Link */
+.research-link {
+  background: #2c3e50;
+}
+
+.research-link:hover {
+  background: #34495e;
 }
 
 /* Footer */
 .footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-    font-size: 0.9rem;
+  background: var(--nav-bg);
+  color: var(--white);
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
 }
 
-/* Responsive Adjustments */
-@media (max-width: 600px) {
-    .projects-container {
-        flex-direction: column;
-        align-items: center;
-    }
+/* Responsive Design */
+@media (max-width: 768px) {
+  .headBox {
+    padding: 2rem 1rem;
+  }
+  
+  .headBox-text h1 {
+    font-size: 2rem;
+  }
+  
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+  
+  .project-card img {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+  
+  .nav-right {
+    margin-top: 1rem;
+  }
+  
+  .nav-right a {
+    margin: 0 0.5rem;
+  }
+  
+  .headBox-text h1 {
+    font-size: 1.75rem;
+  }
+  
+  .project-details h2 {
+    font-size: 1.3rem;
+  }
 }
