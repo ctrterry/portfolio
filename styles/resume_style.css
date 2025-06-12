@@ -109,27 +109,91 @@ body {
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-    padding: 2rem 1rem;
+    padding: 1.2rem 0.5rem;
   }
   .sidebar .profile-pic {
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     margin-bottom: 0;
-    margin-right: 1.5rem;
+    margin-right: 1rem;
   }
   .sidebar .sidebar-name, .sidebar .sidebar-title, .sidebar .sidebar-intro, .sidebar .sidebar-links, .sidebar .sidebar-footer {
     text-align: left;
+    font-size: 1rem;
   }
   .main-content {
-    padding: 2rem 1rem;
+    padding: 1.2rem 0.5rem;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
   }
 }
 @media (max-width: 600px) {
   .main-content {
-    padding: 1rem 0.5rem;
+    padding: 0.5rem 0.2rem;
   }
   .sidebar {
-    padding: 1.5rem 0.5rem;
+    padding: 0.7rem 0.2rem;
+    flex-direction: column;
+    align-items: center;
+  }
+  .sidebar .profile-pic {
+    width: 60px;
+    height: 60px;
+    margin: 0 0 0.5rem 0;
+  }
+  .sidebar .sidebar-name {
+    font-size: 1.2rem;
+  }
+  .sidebar .sidebar-title {
+    font-size: 0.95rem;
+  }
+  .sidebar .sidebar-intro {
+    font-size: 0.9rem;
+  }
+  .sidebar .sidebar-links a {
+    font-size: 0.95rem;
+    padding: 0.3rem 0;
+  }
+  .resume-section h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  .resume-section h3, .education-item h3, .project-item h3, .skill-category h3, .course-item h4 {
+    font-size: 1rem;
+  }
+  .project-item, .education-item, .skill-category, .course-item {
+    padding: 0.7rem;
+    font-size: 0.95rem;
+  }
+  .project-grid {
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+  .back-to-top {
+    right: 0.5rem;
+    bottom: 0.5rem;
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0.7rem 0.5rem;
+  }
+  .nav-right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+  }
+  .nav-right a {
+    margin-left: 0;
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
   }
 }
 .navbar {
